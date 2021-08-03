@@ -263,3 +263,16 @@ ax[1, 1].legend()
 plt.show();
 ```
 ![q51picture](https://user-images.githubusercontent.com/74480780/127947183-4b622237-203c-4953-9662-33c877e52c6d.png)
+
+Jika kita visualisasikan keempatnya dalam satu axis
+
+```
+data_plot = df.groupby('Date')[['New Cases', 'New Deaths', 'New Recovered', 'New Active Cases']].sum()
+```
+```
+fg, ax = plt.subplots(figsize=(12, 6), dpi=800)
+plt.plot(data_plot)
+plt.title('Time Series Based Visualization (Maret 2020 - Maret 2021)', fontsize=18, fontweight='bold', pad=20)
+plt.show()
+```
+![q52picture](https://user-images.githubusercontent.com/74480780/128085688-19dcf058-97f0-4c0c-81b5-791063f099d8.png)
