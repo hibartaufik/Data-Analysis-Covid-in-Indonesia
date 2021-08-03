@@ -1,4 +1,4 @@
-# Project 2: Data Analysis [COVID-19 Indonesia Dataset (Analysis)]
+# Project 1: Data Analysis [COVID-19 Indonesia Dataset (Analysis)]
 
 Overview:
 1. Membuat analisis data dengan python berdasarkan dataset yang berisi data COVID-19 di Indonesia
